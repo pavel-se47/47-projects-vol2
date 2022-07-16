@@ -27,6 +27,9 @@ body {
 .page-link .link:hover {
   color: var(--prim-color-text);
 }
+.page-link .link.current {
+  color: var(--prim-color-text);
+}
 .page-contact .link {
   color: var(--accent-color);
 }
