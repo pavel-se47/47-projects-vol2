@@ -23,21 +23,18 @@ body {
 .page-link .link {
   color: var(--accent-color);
 }
-.page-link .link:focus {
-  color: var(--prim-color-text);
-}
+.page-link .link:focus,
 .page-link .link:hover {
   color: var(--prim-color-text);
 }
 .page-contact .link {
   color: var(--accent-color);
 }
-.page-contact .link:focus {
-  color: var(--prim-color-text);
-}
+.page-contact .link:focus,
 .page-contact .link:hover {
   color: var(--prim-color-text);
 }
+
 /* hero */
 .hero {
   background-color: var(--sec-color-bg);
@@ -47,9 +44,7 @@ body {
   background-color: var(--accent-color);
   color: var(--sec-color-text);
 }
-.button:hover {
-  color: var(--th-color-text);
-}
+.button:hover,
 .button:focus {
   color: var(--th-color-text);
 }
@@ -64,16 +59,12 @@ body {
 .do-link {
   color: var(--prim-color-text);
 }
-.do-link:hover {
-  color: var(--accent-color);
-}
+.do-link:hover,
 .do-link:focus {
   color: var(--accent-color);
 }
 /* social */
-.social .link:hover {
-  color: var(--accent-color);
-}
+.social .link:hover,
 .social .link:focus {
   color: var(--accent-color);
 }
@@ -89,18 +80,14 @@ address {
 address .link {
   color: var(--accent-color);
 }
-address .link:hover {
-  color: var(--prim-color-text);
-}
+address .link:hover,
 address .link:focus {
   color: var(--prim-color-text);
 }
 .copy {
   color: var(--th-color-text);
 }
-.join-social .link:hover {
-  color: var(--accent-color);
-}
+.join-social .link:hover,
 .join-social .link:focus {
   color: var(--accent-color);
 }
