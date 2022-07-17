@@ -12,6 +12,7 @@
 body {
   background-color: (var(--prim-color-bg));
   color: (var(--prim-color-text));
+  font-family: poppins;
 }
 /* header */
 .logo {
