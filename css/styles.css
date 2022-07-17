@@ -12,17 +12,33 @@
 body {
   background-color: (var(--prim-color-bg));
   color: (var(--prim-color-text));
-  font-family: poppins;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.015em;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Josefin Sans, sans-serif;
 }
 /* header */
 .logo {
   color: var(--prim-color-text);
+  font-family: Josefin Sans, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
 }
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: var(--accent-color);
 }
 .page-link .link {
   color: var(--accent-color);
+  text-decoration: none;
 }
 .page-link .link:focus,
 .page-link .link:hover {
@@ -33,20 +49,26 @@ body {
 }
 .page-contact .link {
   color: var(--accent-color);
+  font-size: 18px;
+  text-decoration: none;
 }
 .page-contact .link:focus,
 .page-contact .link:hover {
   color: var(--prim-color-text);
 }
-
 /* hero */
 .hero {
   background-color: var(--sec-color-bg);
   color: var(--sec-color-text);
+  font-size: 50px;
+  text-align: center;
 }
 .button-primary {
   background-color: var(--accent-color);
   color: var(--sec-color-text);
+  font-family: inherit;
+  font-size: 28px;
+  text-decoration: none;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -55,6 +77,9 @@ body {
 .button-secondary {
   background-color: var(--sec-color-bg);
   color: var(--sec-color-text);
+  font-family: inherit;
+  font-size: 20px;
+  text-decoration: none;
 }
 .button-secondary:hover,
 .button-secondary:focus {
@@ -66,17 +91,27 @@ body {
   background-color: var(--prim-color-bg);
   color: var(--prim-color-text);
 }
+.section-title {
+  font-size: 38px;
+  text-align: center;
+}
 .section-subtitle {
   color: var(--th-color-text);
+  font-size: 28px;
 }
 .do-link {
   color: var(--prim-color-text);
+  text-decoration: none;
 }
 .do-link:hover,
 .do-link:focus {
   color: var(--accent-color);
 }
 /* social */
+.social .link {
+  color: var(--prim-color-text);
+  text-decoration: none;
+}
 .social .link:hover,
 .social .link:focus {
   color: var(--accent-color);
@@ -92,6 +127,7 @@ body {
 }
 .address .link {
   color: var(--accent-color);
+  text-decoration: none;
 }
 .address .link:hover,
 .address .link:focus {
@@ -100,7 +136,20 @@ body {
 .copy {
   color: var(--th-color-text);
 }
+.join-social .link {
+  color: var(--prim-color-text);
+  text-decoration: none;
+}
 .join-social .link:hover,
 .join-social .link:focus {
+  color: var(--accent-color);
+}
+/* portfolio */
+.work {
+  color: var(--prim-color-text);
+  text-decoration: none;
+}
+.work:hover,
+.work:focus {
   color: var(--accent-color);
 }
